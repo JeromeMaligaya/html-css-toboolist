@@ -9,6 +9,8 @@
 /*generics*/
 body{
     background-color: #cecece;
+    font-family: "Noto Sans JP", sans-serif;
+
 }
 
 .container{
@@ -16,17 +18,22 @@ body{
    width: 60%;
    padding: 10px 25px;
    border-radius: 5px;
+   background-color: white;
 }
 
 
 
 /*specifics*/
-.whitening{
-    background-color: white;
+div.borderline{
+    border: 1px solid #cecece;
+    margin: 0 -25px;
+    margin-bottom: 20px;
 }
+
 
 /*header*/
 #title-box{
+    background-color: white;
     height: 50px;
     padding: 5px 10px;
     margin-bottom: 30px;
@@ -67,4 +74,77 @@ nav{
     padding: 5px 10px;
     margin: 0;
   
+}
+
+/*main*/
+h3{
+    padding: 20px 0;
+}
+
+ul{
+    padding-inline-start:0;
+    list-style-position: inside;
+    list-style-type: none;
+    
+}
+
+li{
+    padding: 10px 0;
+}
+
+.circle{ 
+    font-size: 10px;
+    border: 1px solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    display: inline-block;
+}
+
+.check{
+    color:rgb(3, 226, 3) ;
+    border-color:rgb(3, 226, 3);
+}
+
+.mark{
+    color: red;
+    border-color: red;
+}
+
+.text-task{
+
+}
+
+.box{
+    color: white;
+    font-size: 10px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 0 5px;
+    
+}
+
+.blue{
+    background-color: rgb(25, 109, 255);
+}
+
+.violet{
+    background-color:rgb(158, 13, 174) ;
+}
+.green{
+    background-color: rgb(12, 150, 85) ;
+}
+.purple{
+    background-color:purple;
+}
+
+.pistacchio{
+    background-color:rgb(93, 173, 13)
+}
+
+.orange{
+    background-color:orange
 }
