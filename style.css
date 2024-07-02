@@ -113,9 +113,6 @@ li{
     border-color: red;
 }
 
-.text-task{
-
-}
 
 .box{
     color: white;
@@ -124,7 +121,6 @@ li{
     text-align: center;
     padding: 5px 10px;
     margin: 0 5px;
-    
 }
 
 .blue{
@@ -132,19 +128,21 @@ li{
 }
 
 .violet{
-    background-color:rgb(158, 13, 174) ;
+    background-color:rgb(158, 13, 174);
 }
+
 .green{
-    background-color: rgb(12, 150, 85) ;
+    background-color: rgb(12, 150, 85);
 }
+
 .purple{
     background-color:purple;
 }
 
 .pistacchio{
-    background-color:rgb(93, 173, 13)
+    background-color:rgb(93, 173, 13);
 }
 
 .orange{
-    background-color:orange
+    background-color:orange;
 }
