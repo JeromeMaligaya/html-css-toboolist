@@ -1,0 +1,36 @@
+/*CSS-reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*generics*/
+body{
+    background-color: #cecece;
+}
+
+
+
+/*specifics*/
+
+/*header*/
+#titlebox{
+    background-color: white;
+    height: 50px;
+    padding: 5px 10px;
+    
+}
+
+h1{
+    display: inline;
+    vertical-align: middle;
+    font-weight: 900;
+    margin:0 5px
+}
+
+#logo{
+    height: 40px ;
+    vertical-align: middle;
+}
