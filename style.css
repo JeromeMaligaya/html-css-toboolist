@@ -11,26 +11,60 @@ body{
     background-color: #cecece;
 }
 
+.container{
+   margin: 0 auto;
+   width: 60%;
+   padding: 10px 25px;
+   border-radius: 5px;
+}
+
 
 
 /*specifics*/
+.whitening{
+    background-color: white;
+}
 
 /*header*/
-#titlebox{
-    background-color: white;
+#title-box{
     height: 50px;
     padding: 5px 10px;
-    
+    margin-bottom: 30px;
 }
 
 h1{
     display: inline;
     vertical-align: middle;
     font-weight: 900;
-    margin:0 5px
+    margin:0 5px;
 }
 
 #logo{
     height: 40px ;
     vertical-align: middle;
+}
+
+/*nav*/
+nav{
+    height: 50px;
+    
+}
+
+#button-task{
+    background-color: rgb(40, 101, 255);
+    color: white;
+    border-color: rgb(40, 101, 255);
+}
+
+#button-section{
+    background-color: white;
+    color: #969696;
+    border-color: #969696 ;
+}
+
+#button-task, #button-section{
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0;
+  
 }
